@@ -1,0 +1,43 @@
+/* .main-container{
+background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+} */
+/* .center-container{
+  height: 500px;
+  width: 400px;
+} */
+.main-input{
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+.main-button{
+    background-color: blue;
+    border-radius: 15px;
+    width: 45px;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.list-item-1{
+    border: 3px solid gray;
+    width: 250px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    /* background-color: red; */
+    
+}
+.icons{
+    /* background-color: green; */
+    margin-left: 130px;
+}
+.icons:hover{
+    background-color: red;
+    font-size:20px;
+    border-radius: 5px;
+}
