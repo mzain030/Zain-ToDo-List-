@@ -2,7 +2,8 @@ import React from 'react'
 
 const MapItemsToDo = (props) => {
   return (
-    <center>
+    <center>  
+      
         <li className='list-item-1'>
             {props.item}
             <span className='icons'>

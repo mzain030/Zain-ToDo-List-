@@ -5,6 +5,7 @@ import { useState } from 'react';
 import MapItemsToDo from './components/MapItemsToDo';
 import LearnToDo from './components/LearnToDo';
 import StateAndDeletFun from './components/StateAndDeletFun';
+import Ehsan from './components/Ehsan';
 function App() {
   const [toDoList,setToDoList]=useState([]);
 const addList=(inputText)=>{
@@ -30,6 +31,7 @@ const deleteListItem=(key)=>{
 <hr></hr>
 {/* <LearnToDo/> */}
 <StateAndDeletFun/>
+<Ehsan/>
   
     </div>
   );

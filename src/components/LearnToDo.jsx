@@ -4,6 +4,7 @@ const LearnToDo = (props) => {
     const [inputText,setInputText]=useState("");
   return (
     <div>
+      <h1>This is my project</h1>
         <input type='text' placeholder='Enter todo ' 
         onChange={(e)=>setInputText(e.target.value)}
         value={inputText}
